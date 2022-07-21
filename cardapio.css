@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans Condensed";
+}
+
+h1 {
+  text-align: center;
+  color: #5a0e56;
+  font-size: 50px;
+  font-family: "roboto";
+  background-color: transparent;
+  border-bottom: 1px solid #00000080;
+}
+
+body {
+  background-image: url(images/renato);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+button {
+  background-color: #deb887;
+  color: #000000;
+  border-color: #ffdead99;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 19px;
+  border-radius: 6px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5a0e56;
+  color: #fff;
+  border-color: #5a0e56;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #ffffff90;
+  border-radius: 4%;
+  padding: 40px;
+  box-shadow: 6px 6px 4px 0px #00000080;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+p {
+  position: relative;
+  top: 10px;
+  margin-top: 2px;
+}
+
+h2 {
+  color: #fff;
+  padding: 2px;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  background-color: #5a0e56;
+  border-radius: 4px;
+  font-size: 30px;
+}
+
+.card2 {
+  border-radius: 4%;
+  padding: 40px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+}

@@ -42,17 +42,18 @@ marcador2.on('click', function(e){
 function funcao(id){
     const title = document.querySelector(".title");
     const desc = document.querySelector(".desc");
+    const desc2 = document.querySelector(".desc2");
     switch(id){
         case 1:
-
-            title.innerHTML="";
-            //desc.innerHTML ="Exemplo";
-            desc.innerHTML = "<div id='conteudo'><nav class='navbar navbar-expand-lg navbar-light bg-transparent'><div class='collapse navbar-collapse' id='navbarNav'><ul class='navbar-nav'><li class='nav-item active'><a class='nav-link' href='#'>Home <span class='sr-only'>(current)</span></a></li><li class='nav-item'><a class='nav-link' href='#''>Cardapio</a></li><li class='nav-item'><a class='nav-link' href='#'>Localização</a></li><li class='nav-item'><a class='nav-link' href='#'>Contato</a></li></ul></div></nav></div>";
-            
+            title.innerHTML="Acaí do Renatão";
+            desc2.innerHTML = "<h2>O melhor açaí da região!</h2><h3>Localizado na parada do Setor 2</h3>"
+            desc.innerHTML = "<div id='conteudo'><nav class='navbar navbar-expand-lg navbar-light bg-transparent'><div class='collapse navbar-collapse' id='navbarNav'><ul class='navbar-nav'><li class='nav-item'><a class='nav-link' href='cardapio1.html' target='blank' style='font-size: 240%;'>Cardápio</a></li></ul></div></nav></div>";
             break;
         case 2:
             title.innerHTML="Exemplo 2";
-            desc.innerHTML = "Exemplo 2";
+            desc2.innerHTML= "";
+            desc.innerHTML = "<div id='conteudo'><nav class='navbar navbar-expand-lg navbar-light bg-transparent'><div class='collapse navbar-collapse' id='navbarNav'><ul class='navbar-nav'><li class='nav-item'><a class='nav-link' href='#' style='font-size: 240%;'>Cardápio</a></li></ul></div></nav></div>";
+
             break;
         
     }
